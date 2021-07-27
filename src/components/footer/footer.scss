@@ -1,0 +1,19 @@
+@import '../../variables';
+
+.footer {
+    background-color: $dark-green;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+
+    .icons {
+        a {
+            font-size: 3rem;
+
+            &:first-child {
+                margin-right: 3rem;
+            }
+        }
+    }
+}

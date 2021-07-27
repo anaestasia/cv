@@ -1,0 +1,15 @@
+@import 'variables';
+
+.App {
+  background-color: $white;
+  text-align: center;
+  color: $dark-green;
+
+  .link {
+    color: $light-orange;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+}
