@@ -16,8 +16,14 @@ $white: #eefcee;
 // MIXINS
 
 @mixin btn($color) {
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid $color;
     background-color: $color;
-    color: $dark-grey;
+    color: $dark-green;
+}
+
+@mixin btnHover($color) {
+    border: 1px solid $color;
+    background-color: $color;
+    color: $white;
 }

@@ -1,0 +1,12 @@
+@import '../../variables';
+
+button {
+    padding: 0.8rem 2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    @include btn($orange);
+
+    &:hover {
+        @include btnHover($dark-green);
+    }
+}

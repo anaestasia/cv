@@ -6,18 +6,4 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem 0;
-
-    button {
-        padding: 0.8rem 2rem;
-        margin: 1rem;
-        font-size: 1.5rem;
-        background-color: $orange;
-        border: 1px solid $orange;
-        border-radius: 0.5rem;
-
-        &:hover {
-            background-color: $dark-green;
-            color: $white;
-        }
-    }
 }

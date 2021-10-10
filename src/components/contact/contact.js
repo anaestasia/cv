@@ -1,10 +1,16 @@
+import Button from '../buttons/button';
 import './contact.scss';
 
 function Contact() {
+
+    const textButton = "J'AI UNE QUESTION !"
+    const icon = "question"
+
     return (
         <div className="contact">
             <span>Vous avez une question ?</span>
-            <button>J'AI UNE QUESTION !</button>
+            <Button text={textButton} icon={icon} />
+            {/* Form déroulant on click */}
         </div>
     );
 }
